@@ -1,0 +1,257 @@
+.contact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.left{
+    flex-basis: 48%;
+    padding: 10px 10px;
+}
+.right{
+    flex-basis: 47%;
+    padding: 10px 0px;
+}
+.message{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding:0px 0px 20px 0px;
+}
+.message h1{
+    font-size: 35px;
+    font-weight: 500;
+    color: #000f38;
+}
+.message img{
+    width: 47px;
+}
+.left-p{
+    font-size: 19px;
+    padding-bottom: 15px;
+    line-height: 33px;
+    color: #676767;
+}
+.information{
+    display: flex;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.information img{
+    width: 32px;
+    margin-right: 5px;
+}
+.information p{
+    font-size: 19px;
+}
+.mainInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin: 20px 0px;
+    color: #676767;
+}
+/*------------------------right-----------------*/
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.element{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+.element label{
+    font-size: 20px;
+    color: #676767;
+    margin: 0px 0px 5px;
+    font-weight: 500;
+}
+.element input{
+    border: 0px;
+    outline: 0px;
+    height: 40px;
+    width: 405px;
+    padding: 0px 10px;
+    font-size: 15px;
+    border-radius: 2px;
+    margin: 0px 0px 10px;
+    background-color: #ebecfe;
+    
+}
+.yourMessage {
+    height: 135px;
+    width: 405px;
+    outline: 0px;
+    border: 0px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #ebecfe;
+}
+.btn-color{
+    background-color: #212ea0;
+    margin: 15px 0px ;
+    color: white;
+}
+.send{
+    display: block;
+    margin-bottom: 20px;
+    color: #676767;;
+    font-size: 16px;
+}
+@media (max-width:850px){
+    .left{
+        flex-basis: 46%;
+        padding: 10px 10px;
+    }
+    .right{
+        flex-basis: 46%;
+        padding: 10px 0px;
+    }
+    .message{gap: 10px;
+        padding: 0px 0px 10px 0px;}
+    .message h1{
+        font-size: 25px;
+    }
+    .message img{
+        width: 40px;
+    }
+    .left{
+    flex-basis: 48%;
+    padding: 10px 10px;
+    }
+.right{
+    flex-basis: 47%;
+    padding: 10px 0px;
+}
+.left-p {
+    font-size: 17px;
+    padding-bottom: 0px;
+    line-height: 25px;
+}
+.mainInfo {
+    gap: 15px;
+    margin: 15px 0px;
+}
+.information img {
+    width: 30px;
+}
+.information p {
+    font-size: 17px;
+}
+.element label {
+    font-size: 17px;
+}
+.element input {
+height: 35px;
+padding: 0px 10px;
+font-size: 14px;
+width: 90%;
+margin: 0px 0px 7px;
+}
+.yourMessage {
+    height: 115px;
+    width: 90%;
+}
+}
+@media (max-width:650px){
+    .left{
+        flex-basis: 45%;
+        padding: 5px 5px;
+    }
+    .right{
+        flex-basis: 48%;
+        padding: 5px 0px;
+    }
+    .message{gap: 10px;
+        padding: 0px 0px 10px 0px;}
+    .message h1{
+        font-size: 22px;
+    }
+    .message img{
+        width: 35px;
+    }
+.left-p {
+    font-size: 15px;
+    padding-bottom: 0px;
+    line-height: 23px;
+}
+.mainInfo {
+    gap: 15px;
+    margin: 10px 0px;
+}
+.information img {
+    width: 25px;
+}
+.information p {
+    font-size: 15px;
+}
+.element label {
+    font-size: 15px;
+}
+.element input {
+height: 30px;
+padding: 0px 10px;
+font-size: 14px;
+width: 90%;
+margin: 0px 0px 7px;
+}
+.yourMessage {
+    height: 115px;
+    width: 90%;
+}
+}
+@media (max-width:550px){
+    .left{
+        flex-basis: 90%;
+        padding: 5px 5px;
+    }
+    .right{
+        flex-basis: 90%;
+        padding: 5px 0px;
+    }
+    .message{gap: 10px;
+        padding: 0px 0px 10px 0px;}
+    .message h1{
+        font-size: 22px;
+    }
+    .message img{
+        width: 35px;
+    }
+.left-p {
+    font-size: 15px;
+    padding-bottom: 0px;
+    line-height: 23px;
+}
+.mainInfo {
+    gap: 15px;
+    margin: 10px 0px;
+}
+.information img {
+    width: 25px;
+}
+.information p {
+    font-size: 15px;
+}
+.element label {
+    font-size: 15px;
+}
+.element input {
+height: 30px;
+padding: 0px 10px;
+font-size: 14px;
+width: 90%;
+margin: 0px 0px 7px;
+}
+.yourMessage {
+    height: 115px;
+    width: 90%;
+}
+.contact{
+    display: flex;
+    justify-content:center;
+}
+}

@@ -1,0 +1,139 @@
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 75px 0px 70px;
+    width: 100%;
+}
+.aboutLeft{
+    flex-basis: 37%;
+    border-radius: 25px;
+    padding:15px 10px;
+    position: relative;
+}
+.AboutImg{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.play{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play img{
+    width: 65px;
+    cursor: pointer;
+}
+.play img:hover {
+    width:75px;
+    
+}
+.aboutRight{
+    flex-basis: 52%;
+}
+.aboutRight h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #212ea5;
+}
+.aboutRight h1{
+    color: #000f38;
+    font-size: 37px;
+    margin-top: 5px;
+    line-height: 47px;
+    margin: 10px 0px;
+}
+.aboutRight p{
+    font-size: 17px;
+    line-height: 33px;
+    margin: 4px 0px;
+}
+
+/*-------media query-------*/
+@media(max-width:1000px){
+    .aboutRight h3{
+        font-size: 18px;
+    }
+    .aboutRight h1{
+        color: #000f38;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .aboutRight p{
+        font-size: 16px;
+        line-height: 29px;
+    }
+    .about{
+        justify-content: space-between;
+        margin: 65px 0px 60px;
+    }
+    .aboutRight{
+        flex-basis: 52%;
+    }
+    .aboutLeft{
+        flex-basis: 45%;
+        border-radius: 25px;
+        padding:15px 10px;
+        position: relative;
+    }
+}
+@media(max-width:840px){
+    .aboutRight h3{
+        font-size: 16px;
+    }
+    .aboutRight h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .aboutRight p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+}@media(max-width:650px){
+    .about{
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+        margin: 50px 0px 20px;
+    }
+    .aboutRight{
+        flex-basis: 80%;
+    }
+    .aboutLeft{
+        flex-basis: 80%;
+        border-radius: 25px;
+        padding:15px 10px;
+        position: relative;
+    }
+}
+@media(max-width:425px){
+    .about{
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+    }
+    .aboutRight{
+        flex-basis: 95%;
+    }
+    .aboutLeft{
+        flex-basis: 95%;
+        padding:15px 0px;
+
+    }
+    .aboutRight h3{
+        font-size: 15px;
+    }
+    .aboutRight h1{
+        font-size: 27px;
+        line-height: 32px;
+    }
+    .aboutRight p{
+        font-size: 15px;
+        line-height: 22px;
+    }
+}

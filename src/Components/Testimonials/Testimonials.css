@@ -1,0 +1,120 @@
+.testimonials{
+    margin:auto;
+    position:relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.nextBtn, .backBtn{
+    position:absolute;
+    top: 50%;
+    right: 70px;
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color:#212EA0;
+    transform: translateY(-25%);
+}
+.backBtn{
+    right: auto;
+    left: 70px;
+}
+.slider{
+    overflow: hidden;
+}
+.slider ul{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200%;
+    transition: transform 0.5s ease-in-out;
+}
+.slider ul li{
+    list-style-type: none;
+    margin: 0;
+    flex-basis: 24%;
+    padding: 0;
+
+}
+.slide{
+    background-color: #f5f5f5;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 35px 30px;
+    border-radius: 25px;
+    margin:24px 15px;
+}
+.user{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.user img{
+    width: 70px;
+    border: 5px solid #212EA0;
+    border-radius: 50%;
+    margin-right: 11px;
+    object-fit: cover;
+}
+.user_details h1{
+    color: #212EA0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.user_details h3{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 1px;
+}
+.review p{
+    font-size: 16px;
+    margin: 20px 10px 10px 10px;
+}
+@media (max-width:1000px){
+    .nextBtn, .backBtn{
+        right: -17px;
+    }
+    .backBtn{
+        left: -15px;
+    }
+}
+@media (max-width:755px){
+    .slider ul li{
+        flex-basis: 25%;
+    }
+    .nextBtn, .backBtn{
+        right: -35px;
+    }
+    .backBtn{
+        left: -30px;
+    }
+    .slider ul{
+        width: 400%;
+       
+}
+}
+@media (max-width:500px){
+    .review p{
+        font-size: 15px;
+        margin: 15px 5px 5px 10px;
+    }
+    .slide{
+        padding: 20px 16px;
+        margin:15px 5px;
+    }
+    .nextBtn, .backBtn{
+        right: -16px;
+        z-index: 999;
+        padding: 10px;
+        width: 35px;
+    }
+    .backBtn{
+        left: -15px;
+    }
+    .slide{
+        padding: 0px 0px;
+    }
+}
